@@ -1,0 +1,179 @@
+#conteudo{
+    display: flex;
+}
+
+#container-a-detalhamento{
+    border: 0.5px solid #000000;
+    width: 80%;
+    height: 20%;
+    padding-bottom: 8%;
+    background-color: white;
+    margin: 10px;
+}
+
+#detalhamento-frente-cont-a
+{
+    display: flex;
+}
+.ciclo-detalhamento{
+    float: right;
+    position: relative;
+
+    padding-left: 50%;
+}
+.table-detalhamento{
+    margin: 1%;
+    border-collapse: collapse;
+    width: 97%;
+    font-size: 10px;
+}
+.td-detalhamento{
+    border: none;
+    padding: 8px;
+}
+.th-detalhamento{
+    border: none;
+    padding: 8px;
+}
+
+/* Container b detalhamento*/
+#container-b-detalhamento{
+    border: 0.5px solid #000000;
+    width: 80%;
+    height: 20%;
+    padding-bottom: 0.1%;
+    background-color: white;
+    margin: 10px;
+}
+.paragrafo{
+  margin: 5px;
+  font-size: 20px;
+  padding-top: 0.5%;
+  font-weight: normal;
+}
+.paragrafo-busca{
+  font-weight: normal;
+  font-size: 20px;
+  padding: 1%;
+}
+#txtBusca{
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin: 1%;
+  width: 70%;
+  padding: 0.7%;
+  background-color: rgb(232, 232, 232,);
+}
+#btnBusca{
+  border: 1px solid #000000;
+  border-radius: 3px;
+  width: 23.1%;
+  padding: 0.7%;
+  background-color: rgb(150, 200, 231);
+  color: rgb(24, 126, 189);
+  font-weight: bold;
+}
+#elementos-contb-detalhamento{
+    padding: 1%;
+}
+.select-contb-detalhamento{
+    height: 27px;
+    width: 30.5%;
+    margin: 1%;
+}
+#nome-contb-detalhamento{
+    height: 20px;
+    width: 30.5%;
+}
+.historico{
+    padding-left: 29px;
+    display: inline;
+    margin: 1%;
+}
+
+#input-historico{
+    margin-left: 1.3%;
+    width: 35%;
+    height: 23px;
+}
+#sem-historico{
+    display: flex;
+    padding-top: 1%;
+    width: 100%;
+
+}
+.historico-detalhamento{
+  display: inline;
+  margin: 1%;
+}
+#msg{
+  width: 45.2%;
+  padding-top: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
+  }
+.Objetivo{
+    padding: 10% 0% 0% 1%;
+    font-size: 19px;
+}
+.hr-detalhamento{
+    height: 3px;
+    width: 95%;
+}
+#cont-objetivo{
+    height: 27px;
+    width: 30%;
+    margin: 3px;
+}
+.curva{
+    padding: 1%;
+    font-size: 19px;
+}
+.linha-curva{
+    height: 3px;
+    width: 95%;
+}
+#date-curva-mensal{
+    border: 1px solid #000000;
+    border-radius: 3px;
+    margin: 1%;
+    width: 31%;
+    padding: 0.7%;
+}
+#meta-curva{
+    width: 30%;
+    height: 23px;
+    margin-right: 1px;
+}
+.adicionar-curva{
+    width: 31%;
+    height: 28px;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 3px;
+}
+.table-curva{
+    margin: 1%;
+    border-collapse: collapse;
+    width: 97%;
+    font-size: 10px;
+}
+.th-curva{
+    border: none;
+    padding: 8px;
+    font-size: 10px;
+}
+.buttons-detalhamento{
+    padding: 4% 3% 0% 0%;
+    float: right;
+}
+.buttons{
+  margin-right: 7px;
+  width: 90px;
+}
+.conteudo-objetivo{
+  padding: 1%;
+}
+.date-curva{
+  padding: 1%;
+}
