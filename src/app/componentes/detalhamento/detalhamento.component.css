@@ -14,12 +14,10 @@
 #detalhamento-frente-cont-a
 {
     display: flex;
+    justify-content: space-between;
 }
 .ciclo-detalhamento{
-    float: right;
-    position: relative;
-
-    padding-left: 50%;
+    margin-right: 3.3%;
 }
 .table-detalhamento{
     margin: 1%;
@@ -73,6 +71,9 @@
   color: rgb(24, 126, 189);
   font-weight: bold;
 }
+#btnExport{
+  margin-left: 8px;
+}
 #elementos-contb-detalhamento{
     padding: 1%;
 }
@@ -86,7 +87,7 @@
     width: 30.5%;
 }
 .historico{
-    padding-left: 29px;
+    padding-left: 17px;
     display: inline;
     margin: 1%;
 }
@@ -98,7 +99,7 @@
 }
 #sem-historico{
     display: flex;
-    padding-top: 1%;
+
     width: 100%;
 
 }
@@ -113,7 +114,7 @@
   margin-left: 2%;
   }
 .Objetivo{
-    padding: 10% 0% 0% 1%;
+    padding: 1%;
     font-size: 19px;
 }
 .hr-detalhamento{
@@ -122,7 +123,7 @@
 }
 #cont-objetivo{
     height: 27px;
-    width: 30%;
+    width: 30.5%;
     margin: 3px;
 }
 .curva{
@@ -137,16 +138,16 @@
     border: 1px solid #000000;
     border-radius: 3px;
     margin: 1%;
-    width: 31%;
+    width: 30.5%;
     padding: 0.7%;
 }
 #meta-curva{
-    width: 30%;
+    width: 30.5%;
     height: 23px;
     margin-right: 1px;
 }
 .adicionar-curva{
-    width: 31%;
+    width: 30.5%;
     height: 28px;
     font-weight: bold;
     font-size: 12px;
@@ -167,13 +168,32 @@
     padding: 4% 3% 0% 0%;
     float: right;
 }
-.buttons{
-  margin-right: 7px;
-  width: 90px;
+#buttons{
+  padding: 1% 5% 0% 0%;
+  float: right;
+  margin: 5px;
+  display: flex;
+  border: 0;
+}
+.save {
+  width: 59px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(169, 196, 238);
+}
+.save, .novo:hover {
+  cursor: pointer;
+}
+.novo {
+  height: 21px;
+  width: 59px;
+  margin-left: 3px;
+  border: none;
+  border-radius: 3px;
 }
 .conteudo-objetivo{
   padding: 1%;
 }
 .date-curva{
-  padding: 1%;
+    padding-left: 4px;
 }

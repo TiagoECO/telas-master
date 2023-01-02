@@ -103,14 +103,14 @@ tr:nth-child(odd) {
 }
 
 #buttons{
-    padding: 6% 1.5% 0% 0%;
+    padding: 6% 5% 0% 0%;
     float: right;
     margin: 5px;
     display: flex;
     border: 0;
 }
 .save {
-    margin: 2px;
+    width: 59px;
     border: none;
     border-radius: 3px;
     background-color: rgb(169, 196, 238);
@@ -119,7 +119,9 @@ tr:nth-child(odd) {
     cursor: pointer;
 }
 .novo {
-    margin: 2px;
+    height: 21px;
+    width: 59px;
+    margin-left: 3px;
     border: none;
     border-radius: 3px;
 }
